@@ -1,0 +1,33 @@
+# CyberNova
+### Explainable AI-Based Phishing Website Detection System
+
+## About the Project
+CyberNova is a prototype web application that analyzes website URLs using a trained Machine Learning model to identify potentially suspicious websites.
+
+## Features
+- URL-based phishing classification
+- Random Forest machine learning model
+- Estimated phishing probability
+- URL warning messages
+- Simple web interface
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Python
+- Flask
+- Pandas
+- Scikit-learn
+
+## How It Works
+1. The user enters a website URL.
+2. CyberNova extracts selected URL features.
+3. The trained model predicts a classification.
+4. The application displays the result, estimated probability, and URL warnings.
+
+## Limitations
+CyberNova is a prototype. Predictions may be incorrect, and a low phishing probability does not guarantee that a website is safe. A domain hyphen alone is not proof of phishing.
+
+## Project Status
+Prototype — preliminary testing completed.
